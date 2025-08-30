@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI4BI Workshop Website</title>
+    <!-- <link rel="icon shortcut" href="./img/favicon.ico"> -->
+    <!-- 連結Bootstrap.min.css -->
+    <!-- 客製化Bootstrap CSS -->
+    <link rel="stylesheet" href="./scss/bootstrap.css">
+    <!-- 使用style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- 使用Boostrap Navbar -->
+    <!-- 設定Navbar固定在畫面上方 -->
+    <!-- 點擊滾動目標 -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">AI4BI</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#introSection">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#agendaSection">Agenda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#speakerSection">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sponsorSection">Sponsors</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- header -->
+    <header id="header" class="jumbotron text-end text-white bg-dark">
+        <div class="container">
+            <h1 class="font-weight-bold pt-5 pb-3 header-text">Artificial Intelligence for Business <br> Intelligence
+                (AI4BI)
+                Workshop
+            </h1>
+            <h2>July 6, 2022</h2>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- introSection -->
+    <!-- 設定introSection 上下padding為5倍 -->
+    <section id="introSection" class="pt-5 pb-5">
+        <h2 class="section-title text-center text-dark mb-5">Introduction</h2>
+        <div class="container">
+            <p>Business Intelligence (BI) has quickly emerged as a critical capability for many
+                organizations to
+                differentiate themselves from their competitors and improve decision-making processes from
+                operational and strategic perspectives. Indeed, tasks such as process mining, supply chain
+                monitoring, developing key performance indicators, detecting customer churn/tracking, pricing,
+                demand forecasting, capacity planning, and others have become critically important aspects of
+                BI. In recent years, the quantity of business data (e.g., customer transactions, logs, quarterly
+                reports, social media, sales reports, etc.) that could be leveraged for BI has grown substantially.
+                Artificial Intelligence (AI)-enabled techniques, including deep learning, machine learning,
+                network science, information retrieval, and text mining, could hold significant promise in
+                leveraging these data to enhance or improve existing BI tasks or help facilitate new BI
+                approaches. Consequently, there is growing interest in how modern AI-enabled analytics could
+                be leveraged and adapted for critical BI applications.</p>
+            <p>This one-day Artificial Intelligence for Business Intelligence (AI4BI) workshop
+                seeks to
+                convene internationally recognized thought leaders to share knowledge about their AI4BI
+                experiences. This AI4BI workshop will feature world-renowned academics with substantial
+                research and education AI4BI experience as well as seasoned industry professionals who have
+                led highly visible and successful multi-year interdisciplinary AI4BI efforts. A key goal of this
+                workshop is to foster discussion and facilitate future AI4BI collaborations. As such, ample time
+                will be provided for discussion and question and answer for the workshop participants. A
+                tentative schedule for the workshop appears below.</p>
+            <p><strong>Hybrid Mode: </strong>Online and In-Person (Subject to change based on Covid-19 situation)</p>
+            <!-- <h5 class="text-secondary mt-5">Sponsors</h5>
+            <ul class="text-secondary">
+                <li style="font-size:medium">National Taiwan University</li>
+                <li style="font-size:medium">University of Arizona</li>
+                <li style="font-size:medium">Indiana University</li>
+            </ul> -->
+            <h5 class="text-secondary mt-4">Workshop General Co-Chairs</h5>
+            <ul class="text-secondary">
+                <li style="font-size:medium">Professor Hsinchun Chen, University of Arizona</li>
+                <li style="font-size:medium">Professor Shu-Hsing Li, National Taiwan University</li>
+                <li style="font-size:medium">Professor Chih-Ping Wei, National Taiwan University</li>
+            </ul>
+            <h5 class="text-secondary mt-4">Workshop Program Co-Chairs</h5>
+            <ul class="text-secondary">
+                <li style="font-size:medium">Professor Sagar Samtani, Indiana University</li>
+                <li style="font-size:medium">Professor Hsin-Min Lu, National Taiwan University</li>
+                <li style="font-size:medium">Professor Chien-Chin Chen, National Taiwan University</li>
+            </ul>
+    </section>
+    <!-- introSection end -->
+    <!-- adendaSection -->
+    <section id="agendaSection" class="pt-5 pb-5">
+        <h2 class="section-title text-center text-dark mb-5">Agenda</h2>
+        <!-- table in the container => table width will not be screen width  -->
+        <div class="container">
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="cent">
+                        <!-- 使用 colspan=" 3", 合併表格３格 -->
+                        <th scope="col" colspan="3">Tentative Schedule (All times Taiwan)*</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="cent">
+                        <th scope="row">Time**</th>
+                        <th>Session Title</th>
+                        <th>Speaker(s)</th>
+                    </tr>
+                    <tr>
+                        <td scope="row">9:00 AM – 9:15 AM</td>
+                        <td>Workshop Welcome</td>
+                        <td>Workshop Co-Chairs</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">9:15 AM – 10:00 AM</td>
+                        <td>Keynote</td>
+                        <td>Dr. Philip Yu, UIC CS</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">10:00 AM – 10:30 AM</td>
+                        <td>Industry Session 1</td>
+                        <td>Dr. Chung-Sheng Li, PWC</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">10:30 AM – 11:00 AM</td>
+                        <td>Industry Session 2</td>
+                        <td>Emily White, Nike</td>
+                    </tr>
+                    <tr class="cent">
+                        <td scope="row" colspan="3">Break (11:00 AM – 11:30 AM)</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">11:30 AM – 12:10 PM</td>
+                        <td>Senior Academic AI4BI Perspectives - Session 1</td>
+                        <td>Dr. Hsinchun Chen, UArizona MIS</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">12:10 PM – 12:50 PM</td>
+                        <td>Senior Academic AI4BI Perspectives - Session 2</td>
+                        <td>Dr. Hsin-Hsi Chen, NTU CS</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">12:50 PM – 1:30 PM</td>
+                        <td>Senior Academic AI4BI Perspectives - Session 3</td>
+                        <td>TBD</td>
+                    </tr>
+                    <tr class="cent">
+                        <td scope="row" colspan="3">Water Break (1:30 PM – 1:45 PM)</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">1:45 PM – 2:15 PM </td>
+                        <td>Academic Short Session 1</td>
+                        <td>Dr. Chih-Ping Wei, NTU IM</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">2:15 PM – 2:45 PM</td>
+                        <td>Academic Short Session 2</td>
+                        <td>Dr. Sagar Samtani, IU ODT (IS)</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">2:45 PM – 3:15 PM </td>
+                        <td>Academic Short Session 3</td>
+                        <td>Dr. Chien-Chin Chen, NTU IM</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">3:15 PM – 3:45 PM</td>
+                        <td>Academic Short Session 4</td>
+                        <td>Dr. Hsin-Min Lu, NTU IM</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">3:45 PM – 4:45 PM </td>
+                        <td>AI4BI Panel</td>
+                        <td><strong>Panelists: </strong>Drs. H Chen, CP Wei, Sagar Samtani, HM Lu</td>
+                    </tr>
+                    <tr class="cent">
+                        <td scope="row" colspan="3"><strong>Workshop Conclusion</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>* Schedule is subject to change based on the availability of speakers. Short speaker bios and
+                abstracts will be provided after the speakers are confirmed and the schedule is finalized.
+                <br>** Total time listed includes a question and answer (Q&A) session.
+            </p>
+        </div>
+    </section>
+    <!-- agendaSection end -->
+    <!-- speakerSection -->
+    <section id="speakerSection" class="pt-5 pb-5">
+        <h2 class="section-title text-center text-dark mb-5">Tentative Speakers</h2>
+        <!-- 1st speaker -->
+        <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <img class="w-75 rounded-circle" src="./img/philip.jpg" alt="user photo">
+            </div>
+            <div class="col-sm-6 col-8 align-self-center">
+                <a class="name" target="_blank" href="https://cs.uic.edu/profiles/philip-yu/"
+                    style="font-size:larger">Dr. Philip Yu
+                </a>
+                <h5 class="organization">Department of Computer Science, University of Illinois Chicago</h5>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+            </div>
+        </div>
+        <!-- 2nd speaker -->
+        <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <img class="w-75 rounded-circle" src="./img/chungshengli.jpeg" alt="user photo">
+            </div>
+            <!-- align-self-center使文字在網格內垂直置中，如果要放底下介紹文字時可拿掉 -->
+            <div class="col-sm-6 col-8 align-self-center">
+                <a class="name" target="_blank" href="https://scholar.google.com/citations?user=OrjJCSwAAAAJ&hl=en"
+                    style="font-size:larger">Dr. Chung Sheng Li
+                </a>
+                <h5 class="organization">Managing Director, AI Lead for Trust, PwC Labs</h5>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+            </div>
+        </div>
+        <!-- 3rd speaker -->
+        <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <img class="w-75 rounded-circle" src="./img/emily.jpeg" alt="user photo">
+            </div>
+            <div class="col-sm-6 col-8 align-self-center">
+
+                <a class="name" target="_blank" href="https://theorg.com/org/nike/org-chart/emily-white"
+                    style="font-size:larger">Emily White
+                </a>
+                <h5 class="organization">Vice President, Enterprise Data & Analytics, Nike</h5>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+            </div>
+        </div>
+        <!-- 4th speaker -->
+        <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <img class="w-75 rounded-circle" src="./img/hsinchun.jpeg" alt="user photo">
+            </div>
+            <div class="col-sm-6 col-8 align-self-center">
+
+                <a class="name" target="_blank" href="https://eller.arizona.edu/people/hsinchun-chen"
+                    style="font-size:larger">Dr. Hsinchun Chen
+                </a>
+                <h5 class="organization">Management Information Systems Department, University of Arizona</h5>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+            </div>
+        </div>
+        </div>
+        <!-- 5th speaker -->
+        <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <img class="w-75 rounded-circle" src="./img/hsinhsichen.jpeg" alt="user photo">
+            </div>
+            <div class="col-sm-6 col-8 align-self-center">
+
+                <a class="name" target="_blank" href="https://www.csie.ntu.edu.tw/people/bio.php?PID=45"
+                    style="font-size:larger">Dr. Hsin-Hsi Chen
+                </a>
+                <h5 class="organization">Department of Computer Science and Information Engineering, National Taiwan
+                    University</h5>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+            </div>
+        </div>
+        <!-- 6th speaker -->
+        <!-- <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <img class="w-75 rounded-circle" src="./img/leefengchien.png" alt="user photo">
+            </div>
+            <div class="col-sm-6 col-8 align-self-center">
+
+                <h5 class="name">Dr. Lee-Feng Chien</h5>
+                <h5 class="organization"></h5> -->
+        <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+        <!-- </div>
+        </div> -->
+        <!-- 7th speaker -->
+        <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <img class="w-75 rounded-circle" src="./img/cpwei.jpeg" alt="user photo">
+            </div>
+            <div class="col-sm-6 col-8 align-self-center">
+                <a class="name" target="_blank" href="https://management.ntu.edu.tw/IM/faculty/teacher/sn/15"
+                    style="font-size:larger">Dr. Chih-Ping Wei
+                </a>
+                <h5 class="organization">Department of Information Management, National Taiwan University</h5>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+            </div>
+        </div>
+        <!-- 8th speaker -->
+        <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <img class="w-75 rounded-circle" src="./img/sagar.jpeg" alt="user photo">
+            </div>
+            <div class="col-sm-6 col-8 align-self-center">
+
+                <a class="name" target="_blank"
+                    href="https://kelley.iu.edu/faculty-research/faculty-directory/profile.html?id=SSAMTANI"
+                    style="font-size:larger">Dr. Sagar Samtani
+                </a>
+                <h5 class="organization">Department of Operations and Decision Technologies, Indiana University</h5>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+            </div>
+        </div>
+        <!-- 9th speaker -->
+        <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <img class="w-75 rounded-circle" src="./img/chienchinchen.jpeg" alt="user photo">
+            </div>
+            <div class="col-sm-6 col-8 align-self-center">
+                <a class="name" target="_blank" href="https://management.ntu.edu.tw/IM/faculty/teacher/sn/22"
+                    style="font-size:larger">Dr. Chien-Chin Chen
+                </a>
+                <h5 class="organization">Department of Information Management, National Taiwan University</h5>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+            </div>
+        </div>
+        <!-- 10th speaker -->
+        <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <img class="w-75 rounded-circle" src="./img/luhsinmin.jpeg" alt="user photo">
+            </div>
+            <div class="col-sm-6 col-8 align-self-center">
+                <a class="name" target="_blank" href="https://management.ntu.edu.tw/IM/faculty/teacher/sn/25"
+                    style="font-size:larger">Dr. Hsin-Min Lu
+                </a>
+                <h5 class="organization">Department of Information Management, National Taiwan University</h5>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+            </div>
+        </div>
+    </section>
+    <!-- speakerSection end -->
+    <!-- sponsorSection -->
+    <section id="sponsorSection" class="pt-2 pb-5">
+        <h2 class="section-title text-center text-dark mb-5">Sponsors</h2>
+        <div class="container">
+            <!-- 三項排一排 -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="intro-box">
+                        <h5 class="text-secondary">National Taiwan University</h5>
+                        <div class="py-3">
+                            <img style="height: 150px" src="./img/logoNTU.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="intro-box">
+                        <h5 class="text-secondary">University of Arizona</h5>
+                        <div class="py-3">
+                            <img style="height: 150px" src="./img/logoUA.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="intro-box">
+                        <h5 class="text-secondary">Indiana University</h5>
+                        <div class="py-3">
+                            <img style="height: 150px" src="./img/logoIU.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sponsorSection end -->
+
+
+
+    <!-- footer -->
+    <!-- <footer id="footer" class="pt-5 bg-secondary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 footer-list">
+                    <h4>Contact Us</h4>
+                    <a href="mailto:service@brand.com">service@brand.com</a>
+                </div>
+                <div class="col-md-3 col-sm-6 footer-list">
+                    <h5 class="text-uppercase">Company</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Press</a>
+                        </li>
+                        <li>
+                            <a href="#">Bonus</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 footer-list">
+                    <h5 class="text-uppercase">Product</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Enterprice</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#">Security</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 footer-list">
+                    <h5 class="text-uppercase">Resource</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Guilde</a>
+                        </li>
+                        <li>
+                            <a href="#">Help Center</a>
+                        </li>
+                        <li>
+                            <a href="#">API</a>
+                        </li>
+                        <li>
+                            <a href="#">Events</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+
+    <div class="footer-end bg-secondary pt-2 pb-1">
+        <p class="text-center text-light">NTUIM @2022</p>
+    </div>
+    </footer>
+    <!-- footer end -->
+
+    </div>
+
+    <!-- jquery.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- popper.min.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap.min.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <!-- 連結網頁主程式 -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
