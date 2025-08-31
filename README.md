@@ -13,8 +13,8 @@
 
 - [x] Desktop view
 
-<img src="./preview/desktop_view.png" alt="desktop" height="400">
+<kbd><img src="./preview/desktop_view.png" alt="desktop" height="400"><kbd>
 
 - [x] Mobile view
 
-<img src="./preview/mobile_view.jpg" alt="mobile" height="500">
+<kbd><img src="./preview/mobile_view.jpg" alt="mobile" height="500"><kbd>
