@@ -17,4 +17,4 @@
 
 - [x] Mobile view
 
-<kbd><img src="./preview/mobile_view.jpg" alt="mobile" height="500"><kbd>
+<kbd><img src="./preview/mobile_view.jpg" alt="mobile" height="450"><kbd>
