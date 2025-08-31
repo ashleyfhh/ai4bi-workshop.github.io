@@ -1,4 +1,4 @@
-# Workshop website
+# Workshop Ｗebsite
 
 Check out the demo [here](https://ashleyfhh.github.io/workshop-website/ "游標顯示")
 
@@ -12,7 +12,7 @@ Check out the demo [here](https://ashleyfhh.github.io/workshop-website/ "游標�
 ## Cross-browser compatibility
 
 Desktop view
-<img src="./view/desktop_view.png" alt="desktop" height="200">
+<img src="./preview/desktop_view.png" alt="desktop" height="200">
 
 Mobile view
-<img src="./view/mobile_view.jpg" alt="mobile" height="250">
+<img src="./preview/mobile_view.jpg" alt="mobile" height="250">
