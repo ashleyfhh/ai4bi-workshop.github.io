@@ -4,9 +4,9 @@
 
 * This is a single-page website I created for a real workshop held in 2022.
 
-* It can serve as a simple HTML/CSS website template for a small workshop or seminar.
+* It can serve as a website template built with HTML, CSS, and JavaScript for a small workshop or seminar.
 
-* Don't forget to modify the images and introduction according to your needs.
+* Don't forget to customize the images and introduction according to your needs.
 
 
 ## Cross-browser compatibility
