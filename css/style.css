@@ -30,7 +30,7 @@ button:focus {
 =============================================*/
 
 #header {
-    /* 為網頁最上面的區塊加入背景圖片 */
+    /* 替網頁最上面的區塊加入背景圖片 */
     border-radius: 0px;
     margin-bottom: 0px;
     background-image: url("../img/header.png");
