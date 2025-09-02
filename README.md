@@ -9,7 +9,9 @@
 * Don't forget to customize the images and introduction according to your needs.
 
 
-## Cross-browser compatibility
+## Responsive Web Design
+
+* Compatible with various devices
 
 - [x] Desktop view
 
